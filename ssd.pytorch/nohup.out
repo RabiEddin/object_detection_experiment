@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 444, in <module>
+    test_net(args.save_folder, net, args.cuda, dataset,
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 419, in test_net
+    evaluate_detections(all_boxes, output_dir, dataset)
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 423, in evaluate_detections
+    write_voc_results_file(box_list, dataset)
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 152, in write_voc_results_file
+    dets = all_boxes[cls_ind+1][im_ind]
+IndexError: list index out of range
+Finished loading model!
+im_detect: 1/2 1.586s
+im_detect: 2/2 1.951s
+Evaluating detections
+Writing aeroplane VOC results file
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 444, in <module>
+    test_net(args.save_folder, net, args.cuda, dataset,
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 419, in test_net
+    evaluate_detections(all_boxes, output_dir, dataset)
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 423, in evaluate_detections
+    write_voc_results_file(box_list, dataset)
+  File "/home/capstone_002_04/learn/SSD/ssd.pytorch/eval.py", line 152, in write_voc_results_file
+    dets = all_boxes[cls_ind+1][im_ind]
+IndexError: list index out of range
+Finished loading model!
+im_detect: 1/2 1.372s
+im_detect: 2/2 2.123s
+Evaluating detections
+Writing aeroplane VOC results file
